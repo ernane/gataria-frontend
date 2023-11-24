@@ -35,3 +35,11 @@ Para rodar os testes
 ```
 npm test
 ```
+
+# Execução local com Docker
+
+```bash
+docker run --name gataria-frontend \
+-p 3000:3000 \
+-d gataria-frontend:dev
+```
